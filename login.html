@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>Login - G-ZONE</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div id="logo"><a href="index.html">G-ZONE</a></div>
+    <nav>
+      <ul>
+        <li><a href="roots.html">Guitar Roots</a></li>
+        <li><a href="skill.html">Skill Up Guide</a></li>
+        <li><a href="gear.html">Gear &amp; Tones</a></li>
+        <li><a href="hall.html">Hall of Fame</a></li>
+        <li><a href="maintenance.html">Maintenance</a></li>
+        <li><a class="active" href="login.html">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="sub_visual login_visual">
+      <h1>Member Page</h1>
+      <p>로그인 폼과 회원 가입 폼</p>
+    </section>
+
+    <section class="section_area form_columns">
+      <div class="form_box">
+        <h2>로그인</h2>
+        <form>
+          <label for="user_id">아이디</label>
+          <input type="text" id="user_id" name="user_id">
+
+          <label for="user_pw">비밀번호</label>
+          <input type="password" id="user_pw" name="user_pw">
+
+          <input type="submit" value="로그인">
+        </form>
+      </div>
+
+      <div class="form_box">
+        <h2>회원 가입</h2>
+        <form>
+          <label for="join_id">아이디</label>
+          <input type="text" id="join_id" name="join_id">
+
+          <label for="join_email">이메일</label>
+          <input type="text" id="join_email" name="join_email">
+
+          <label for="join_level">기타 실력</label>
+          <select id="join_level" name="join_level">
+            <option>입문자</option>
+            <option>연습생</option>
+            <option>공연 경험 있음</option>
+          </select>
+
+          <input type="submit" value="가입하기">
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>대표 : 박민호<br>
+    주소 : 서울시 관악구 두산동 두산아파트 1000-1020<br>
+    전화 : 010-3214-4352<br>
+    Copyright by G-Zone</p>
+  </footer>
+</body>
+</html>

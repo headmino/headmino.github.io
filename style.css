@@ -1,0 +1,564 @@
+﻿* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f7efe3;
+  color: #2b2b2b;
+  font-family: "Malgun Gothic", Arial, sans-serif;
+  line-height: 1.7;
+}
+
+a {
+  color: #9b4f2c;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+  width: 100%;
+  height: 82px;
+  overflow: hidden;
+  background-color: #262626;
+  border-bottom: 4px solid #b2653d;
+}
+
+#logo {
+  float: left;
+  margin-left: 4%;
+  line-height: 82px;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 0;
+}
+
+#logo a {
+  color: #fff7ea;
+}
+
+nav {
+  float: right;
+  margin-right: 4%;
+  white-space: nowrap;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav li {
+  display: inline-block;
+  line-height: 82px;
+  margin-left: 18px;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+nav a {
+  color: #fff7ea;
+}
+
+nav a.active,
+nav a:hover {
+  color: #f0b36c;
+  text-decoration: none;
+}
+
+main {
+  width: 100%;
+}
+
+#hero {
+  min-height: 520px;
+  background-image: url("image/guitar_pickup.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
+.hero_text {
+  width: 88%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 145px;
+}
+
+.hero_text h1 {
+  font-size: 72px;
+  line-height: 1.1;
+  margin-bottom: 16px;
+}
+
+.hero_text p {
+  font-size: 22px;
+}
+
+.small_title {
+  color: #f0b36c;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.page_intro,
+.section_area {
+  width: 88%;
+  max-width: 1080px;
+  margin: 45px auto;
+}
+
+.page_intro {
+  text-align: center;
+}
+
+.page_intro h2,
+.section_area h2 {
+  margin-bottom: 18px;
+  color: #222;
+  font-size: 28px;
+}
+
+.page_intro p {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.menu_card {
+  display: inline-block;
+  vertical-align: top;
+  width: 25%;
+  min-height: 170px;
+  margin: 1%;
+  padding: 22px;
+  background-color: #fffaf1;
+  border: 1px solid #d8c7b6;
+  border-radius: 6px;
+}
+
+.menu_card h3 {
+  margin-bottom: 10px;
+  color: #7c3f24;
+}
+
+.menu_card p {
+  min-height: 86px;
+}
+
+.two_column,
+.product_area,
+.form_columns,
+.detail_card {
+  overflow: hidden;
+}
+
+.text_box {
+  float: left;
+  width: 52%;
+}
+
+.image_box {
+  float: right;
+  width: 40%;
+}
+
+.image_box img,
+.product_img img,
+.detail_img img,
+.wide_img img,
+.artist_photo img {
+  width: 100%;
+  border: 1px solid #d8c7b6;
+  border-radius: 6px;
+  display: block;
+}
+
+.table_wrap {
+  width: 100%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fffaf1;
+}
+
+th,
+td {
+  border: 1px solid #c9b6a4;
+  padding: 12px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+th {
+  background-color: #33443f;
+  color: white;
+}
+
+.chord_table th {
+  text-align: center;
+}
+
+.chord_table .code_name_col {
+  width: 15%;
+}
+
+.chord_table .root_col {
+  width: 15%;
+}
+
+.chord_table .shape_col {
+  width: 24%;
+}
+
+.chord_table .tip_col {
+  width: 46%;
+}
+
+.even td {
+  background-color: #fbf5ec;
+}
+
+.text_center {
+  text-align: center;
+}
+
+.sub_visual {
+  min-height: 270px;
+  padding-top: 105px;
+  text-align: center;
+  color: white;
+  background-color: #333;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.sub_visual h1 {
+  font-size: 48px;
+  margin-bottom: 8px;
+}
+
+.sub_visual p {
+  font-size: 18px;
+}
+
+.roots_visual {
+  background-image: url("image/studio.png");
+}
+
+.skill_visual {
+  background-image: url("image/chord.png");
+}
+
+.gear_visual {
+  background-image: url("image/pedalboard.png");
+}
+
+.hall_visual {
+  background-image: url("image/guitar_pickup.png");
+}
+
+.maintenance_visual {
+  background-image: url("image/care_tools.png");
+}
+
+.login_visual {
+  background-image: url("image/studio.png");
+}
+
+.product_img {
+  float: left;
+  width: 38%;
+}
+
+.product_text {
+  float: right;
+  width: 56%;
+}
+
+form {
+  padding: 24px;
+  background-color: #fffaf1;
+  border: 1px solid #d8c7b6;
+  border-radius: 6px;
+}
+
+label {
+  display: block;
+  margin-top: 12px;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+input,
+select,
+textarea {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #bca995;
+  font-family: "Malgun Gothic", Arial, sans-serif;
+  font-size: 15px;
+}
+
+input[type="submit"] {
+  width: auto;
+  margin-top: 18px;
+  padding: 10px 22px;
+  border: 0;
+  background-color: #9b4f2c;
+  color: white;
+  cursor: pointer;
+}
+
+.form_box {
+  float: left;
+  width: 46%;
+  margin: 0 2%;
+}
+
+.detail_card,
+.artist_box,
+.note_box {
+  margin-bottom: 28px;
+  padding: 24px;
+  background-color: #fffaf1;
+  border: 1px solid #d8c7b6;
+  border-radius: 6px;
+}
+
+.detail_card h3,
+.artist_box h3,
+.note_box h3 {
+  margin-bottom: 12px;
+  color: #7c3f24;
+  font-size: 22px;
+}
+
+.detail_text {
+  float: left;
+  width: 63%;
+}
+
+.detail_img {
+  float: right;
+  width: 31%;
+  margin-top: 6px;
+}
+
+.neck_shape_img,
+.wood_img {
+  margin-top: 42px;
+}
+
+.neck_shape_img img,
+.wood_img img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 260px;
+  background-color: #ffffff;
+}
+
+.detail_text p,
+.detail_text li,
+.artist_box li,
+.note_box li {
+  margin-bottom: 9px;
+}
+
+.detail_text ul,
+.detail_text ol,
+.artist_box ul,
+.note_box ul,
+.note_box ol {
+  margin-left: 22px;
+}
+
+.lead_text {
+  margin-bottom: 20px;
+  padding: 18px 22px;
+  background-color: #fffaf1;
+  border-left: 5px solid #b2653d;
+}
+
+.chord_img {
+  width: 135px;
+  max-width: 100%;
+  border: 1px solid #d8c7b6;
+  border-radius: 4px;
+}
+
+.wide_img {
+  margin-top: 24px;
+}
+
+.body_shape_img {
+  margin-bottom: 28px;
+}
+
+.body_shape_img img {
+  background-color: #ffffff;
+}
+
+.scale_img {
+  margin-top: 66px;
+}
+
+.scale_img img {
+  height: auto;
+  background-color: #111820;
+}
+
+.practice_link {
+  display: inline-block;
+  margin-left: 12px;
+  font-size: 14px;
+  font-weight: normal;
+  color: #9b4f2c;
+}
+
+.technique_symbol {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 135px;
+  margin: 12px 0 10px;
+  border: 1px solid #d8c7b6;
+  border-radius: 4px;
+  background-color: #fffaf1;
+}
+
+.symbol_note {
+  margin-bottom: 10px;
+  color: #7c3f24;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.technique_area .menu_card {
+  min-height: 390px;
+}
+
+.technique_area .menu_card p {
+  min-height: 118px;
+}
+
+.artist_box {
+  overflow: hidden;
+}
+
+.artist_text {
+  float: left;
+  width: 62%;
+}
+
+.artist_photo {
+  float: right;
+  width: 32%;
+}
+
+.artist_photo img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 250px;
+}
+
+.sub_title {
+  color: #666;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.step_list {
+  padding-left: 48px;
+}
+
+.step_list li {
+  margin-bottom: 14px;
+}
+
+footer {
+  margin-top: 55px;
+  padding: 28px 0;
+  background-color: #262626;
+  color: #fff7ea;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    height: auto;
+    padding-bottom: 14px;
+  }
+
+  #logo {
+    float: none;
+    margin-left: 0;
+    text-align: center;
+    line-height: 64px;
+  }
+
+  nav {
+    float: none;
+    margin-right: 0;
+    text-align: center;
+  }
+
+  nav li {
+    display: block;
+    line-height: 34px;
+    margin-left: 0;
+  }
+
+  .hero_text {
+    padding-top: 90px;
+  }
+
+  .hero_text h1 {
+    font-size: 48px;
+  }
+
+  .hero_text p {
+    font-size: 18px;
+  }
+
+  .menu_card,
+  .text_box,
+  .image_box,
+  .product_img,
+  .product_text,
+  .form_box,
+  .detail_text,
+  .detail_img,
+  .artist_text,
+  .artist_photo {
+    display: block;
+    float: none;
+    width: auto;
+    margin: 18px 0;
+  }
+
+  .sub_visual h1 {
+    font-size: 38px;
+  }
+
+  th,
+  td {
+    padding: 8px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hero_text h1 {
+    font-size: 40px;
+  }
+}
